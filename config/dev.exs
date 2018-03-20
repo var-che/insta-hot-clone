@@ -40,7 +40,7 @@ config :phoenix, :stacktrace_depth, 20
 config :instagram, Instagram.Repo,
   adapter: Ecto.Adapters.Postgres,
   username: "postgres",
-  password: "postgres",
+  password: "afloderm",
   database: "instagram_dev",
   hostname: "localhost",
   pool_size: 10
